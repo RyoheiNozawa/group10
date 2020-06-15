@@ -20,7 +20,7 @@ public class HumanPlayer extends Player{
 		while(true) {
 			
 			while(true) {
-				System.err.println("座標を、半角スペースで区切って入力して下さい(例：2列目の3行目→ 2 3)");
+				System.out.println("座標を半角スペースで区切って入力して下さい(例：2列目の3行目→ 2 3)");
 				try {
 					x = Integer.parseInt(scanner.next());
 					y = Integer.parseInt(scanner.next());
