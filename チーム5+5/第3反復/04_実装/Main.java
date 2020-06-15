@@ -9,10 +9,6 @@ public class Main {
 	static ComputerPlayer normalNPC = new ComputerPlayer("後攻",Mark.CROSS);
 	static HardComputerPlayer hardNPC = new HardComputerPlayer("先攻",Mark.CIRCLE);
 	public static void main(String[] args) {
-//		HumanPlayer firstPlayer = new HumanPlayer("先攻",Mark.CIRCLE);
-//		HumanPlayer secondPlayer = new HumanPlayer("後攻",Mark.CROSS);
-//		ComputerPlayer NPC = new ComputerPlayer("後攻",Mark.CROSS);
-//		ComputerPlayer NPC1 = new ComputerPlayer("先攻",Mark.CIRCLE);
 		
 		Choice choice = new Choice();
 		
@@ -34,7 +30,7 @@ public class Main {
 				game.start();
 				break;
 			}else {
-				System.out.println("もっかい入力");
+				System.err.println("もう一度入力してください");
 			}
 		}
 				

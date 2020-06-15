@@ -20,7 +20,7 @@ public class HumanPlayer extends Player{
 		while(true) {
 			
 			while(true) {
-				System.out.println("列と行を、半角スペースで区切って入力して下さい(例：2列目の3行目→ 2 3)");
+				System.err.println("座標を、半角スペースで区切って入力して下さい(例：2列目の3行目→ 2 3)");
 				try {
 					x = Integer.parseInt(scanner.next());
 					y = Integer.parseInt(scanner.next());
@@ -30,11 +30,11 @@ public class HumanPlayer extends Player{
 						break;
 					
 					}else{
-						System.out.println("1～3の範囲で入力してください");
+						System.err.println("1～3の範囲で入力してください");
 						}
 				}catch(NumberFormatException e) {
 				
-					System.out.println("入力値が正しくありません、半角or全角数字で入力してください");
+					System.err.println("入力値が正しくありません、半角で入力してください");
 			
 				}
 			
@@ -45,7 +45,7 @@ public class HumanPlayer extends Player{
 				
 				break;
 			}else {
-				System.out.println("既に置かれています");
+				System.err.println("既に置かれています");
 			}
 		
 			

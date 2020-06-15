@@ -8,7 +8,7 @@ public class Choice {
 	
 	public int select() {
 		int c=0;
-		System.out.println("1:ｃｐ　2:対人");
+		System.out.println("1:ｃｐu　2:対人");
 		int x= Integer.parseInt(scanner.next());
 		if(x==1) {
 			System.out.println("1:Normal　2:Hard");
@@ -23,9 +23,6 @@ public class Choice {
 		else if(x==2){
 			c=2;
 		}
-//		else if(x==2){
-//			c=3;
-//		}
 		else {
 			c=4;
 		}

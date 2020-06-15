@@ -24,7 +24,6 @@ public class Turn {
 		square.setMark(this.player.getMark());
 	}
 	
-	
 	public String toString() {
 		String str = null;
 		Mark mark = null;
@@ -39,7 +38,6 @@ public class Turn {
 			break;
 		default:
 			break;
-		
 		}
 		
 		str = this.player.getOrder() + ":" + "(" + this.square.getX() + "," + this.square.getY() + ")　" + markx;

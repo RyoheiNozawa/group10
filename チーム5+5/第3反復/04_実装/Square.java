@@ -13,7 +13,6 @@ public class Square {
 		this.y = y;
 	}
 
-
 	//マスの状態を取得
 	public boolean checkStatus() {
 		return this.status;
